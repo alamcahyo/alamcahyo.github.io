@@ -19,6 +19,8 @@ html{
     background-image: url(../img/profile-img.png);
     background-size: cover;
     background-position: center;
+    border-bottom-style: solid;
+    border-color: #262626;
 
 }
 .container{
@@ -80,6 +82,8 @@ nav ul li a:hover::after{
 #about{
     padding: 80px 0;
     color: #ababab;
+    border-bottom-style: solid;
+    border-color: #262626;
 }
 
 .row{
@@ -153,6 +157,8 @@ nav ul li a:hover::after{
 /* ------------services----------- */
 #services{
     padding: 30px 0;
+    border-bottom-style: solid;
+    border-color: #262626;
 }
 .services-list{
     display: grid;
@@ -192,6 +198,8 @@ nav ul li a:hover::after{
 /* ------------portofolio---------- */
 #portofolio{
     padding: 50px 0;
+    border-bottom-style: solid;
+    border-color: #262626;
 }
 .work-list{
     display: grid;
@@ -267,6 +275,9 @@ nav ul li a:hover::after{
 
 
 /* ------------ contact ---------- */
+#contact{
+    margin-top: 30px;
+}
 .contact-left{
     flex-basis: 35%;
 }
@@ -336,11 +347,12 @@ nav .fa-solid{
 
 @media only screen and (max-width: 600px){
     .header-text{
-        margin-top: 100%;
-        font-size: 16px;
+        margin-top: 50%;
+        font-size: 24px;
     }
     .header-text h1{
-        font-size: 30px;
+        font-size: 40px;
+        margin-bottom: 10px;
     }
     nav .fa-solid{
         display: block;
